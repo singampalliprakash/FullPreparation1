@@ -9,7 +9,7 @@ public class EvenLeftOddRight {
 
         int left = 0, right = numbers.length - 1;
 
-        while (left < right) {
+        while (left < right){
             if (numbers[left] % 2 == 0) {
                 // If the left number is already even, move forward
                 left++;
